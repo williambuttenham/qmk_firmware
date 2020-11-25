@@ -1,6 +1,6 @@
-# arcade_controller
+# foot_pedal
 
-![arcade_controller](imgur.com image replace me!)
+![foot_pedal](imgur.com image replace me!)
 
 A short description of the keyboard/project
 
@@ -10,6 +10,6 @@ Hardware Availability: Build one and share it!
 
 Make example for this keyboard (after setting up your build environment):
 
-    make arcade_controller:default
+    make foot_pedal:default
 
 See [build environment setup](https://docs.qmk.fm/build_environment_setup.html) then the [make instructions](https://docs.qmk.fm/make_instructions.html) for more information.

@@ -25,8 +25,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x0A0C
 #define DEVICE_VER      0x4444
 #define MANUFACTURER    William Buttenham
-#define PRODUCT         arcade controller
-#define DESCRIPTION     A custom arcade controller
+#define PRODUCT         foot pedal
+#define DESCRIPTION     A custom foot pedal
 
 /* key matrix size */
 #define MATRIX_ROWS 1

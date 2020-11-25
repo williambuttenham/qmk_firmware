@@ -1,5 +1,5 @@
-#ifndef ARCADE_CONTROLLER_H
-#define ARCADE_CONTROLLER_H
+#ifndef FOOT_PEDAL_H
+#define FOOT_PEDAL_H
 
 #include "quantum.h"
 
