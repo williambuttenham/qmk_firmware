@@ -1,0 +1,9 @@
+#ifndef CONFIG_USER_H
+#define CONFIG_USER_H
+
+#define PREVENT_STUCK_MODIFIERS
+#define TAPPING_TERM 300
+
+#define AUTO_SHIFT_TIMEOUT 200
+
+#endif
