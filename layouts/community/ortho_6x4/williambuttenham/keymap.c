@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * `-------------------'
     */
     [1] = LAYOUT_ortho_6x4(
-        KC_F6,  KC_NO,  KC_NO,   KC_NO, \
+        KC_F6,  BL_TOGG,  BL_STEP,   KC_NO, \
         KC_NO,  KC_NO,  KC_NO,   KC_NO, \
         KC_F4,  KC_NO,  KC_NO,   KC_NO, \
         KC_F3,  KC_NO,  KC_NO,   KC_NO, \
