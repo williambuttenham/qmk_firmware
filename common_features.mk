@@ -117,13 +117,13 @@ endif
 
 ifeq ($(strip $(MOUSEKEY_ENABLE)), yes)
     OPT_DEFS += -DMOUSEKEY_ENABLE
-    OPT_DEFS += -DMOUSE_ENABLE
+    MOUSE_ENABLE := yes
     SRC += $(QUANTUM_DIR)/mousekey.c
 endif
 
 ifeq ($(strip $(POINTING_DEVICE_ENABLE)), yes)
     OPT_DEFS += -DPOINTING_DEVICE_ENABLE
-    OPT_DEFS += -DMOUSE_ENABLE
+    MOUSE_ENABLE := yes
     SRC += $(QUANTUM_DIR)/pointing_device.c
 endif
 
@@ -592,11 +592,21 @@ ifeq ($(strip $(HD44780_ENABLE)), yes)
     OPT_DEFS += -DHD44780_ENABLE
 endif
 
-ifeq ($(strip $(OLED_DRIVER_ENABLE)), yes)
-    OPT_DEFS += -DOLED_DRIVER_ENABLE
-    COMMON_VPATH += $(DRIVER_PATH)/oled
-    QUANTUM_LIB_SRC += i2c_master.c
-    SRC += oled_driver.c
+VALID_OLED_DRIVER_TYPES := SSD1306 custom
+OLED_DRIVER ?= SSD1306
+ifeq ($(strip $(OLED_ENABLE)), yes)
+    ifeq ($(filter $(OLED_DRIVER),$(VALID_OLED_DRIVER_TYPES)),)
+        $(error OLED_DRIVER="$(OLED_DRIVER)" is not a valid OLED driver)
+    else
+        OPT_DEFS += -DOLED_ENABLE
+        COMMON_VPATH += $(DRIVER_PATH)/oled
+
+        OPT_DEFS += -DOLED_DRIVER_$(strip $(shell echo $(OLED_DRIVER) | tr '[:lower:]' '[:upper:]'))
+        ifeq ($(strip $(OLED_DRIVER)), SSD1306)
+            SRC += ssd1306_sh1106.c
+            QUANTUM_LIB_SRC += i2c_master.c
+        endif
+    endif
 endif
 
 ifeq ($(strip $(ST7565_ENABLE)), yes)
