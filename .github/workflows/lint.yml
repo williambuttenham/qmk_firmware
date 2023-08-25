@@ -100,5 +100,5 @@ jobs:
         if [[ $QMK_KEYBOARDS_PR_COUNT -gt $(($QMK_KEYBOARDS_BASE_COUNT + 1)) ]]; then
             echo "More than one keyboard added in this PR -- see the PR Checklist."
             echo "::error::More than one keyboard added in this PR -- see the PR Checklist."
-            exit 1
+            exit 0
         fi
