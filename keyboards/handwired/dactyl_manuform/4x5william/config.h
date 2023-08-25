@@ -58,7 +58,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_B { F5 }
 #define ENCODER_RESOLUTION 4
 
-#define PREVENT_STUCK_MODIFIERS
 #define TAPPING_TERM 300
 
 #define AUTO_SHIFT_TIMEOUT 210

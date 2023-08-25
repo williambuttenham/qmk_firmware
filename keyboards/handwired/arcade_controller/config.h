@@ -1,5 +1,5 @@
 /*
-Copyright 2018 REPLACE_WITH_YOUR_NAME
+Copyright 2023 William Buttenham
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -26,7 +26,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x4444
 #define MANUFACTURER    William Buttenham
 #define PRODUCT         arcade controller
-#define DESCRIPTION     A custom arcade controller
 
 /* key matrix size */
 #define MATRIX_ROWS 1
@@ -55,7 +54,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCING_DELAY 5
+#define DEBOUNCE 5
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
 //#define MATRIX_HAS_GHOST
