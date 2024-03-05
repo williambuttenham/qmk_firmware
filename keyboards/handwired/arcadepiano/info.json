@@ -1,0 +1,193 @@
+{
+    "keyboard_name": "arcadepiano",
+    "url": "http://www.williambuttenham.com/midi-piano",
+    "maintainer": "williambuttenham",
+    "width": 21,
+    "height": 2,
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "label": "MI_Cs",
+                    "x": 0.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Ds",
+                    "x": 1.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Fs",
+                    "x": 3.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Gs",
+                    "x": 4.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_As",
+                    "x": 5.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Cs_1",
+                    "x": 7.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Ds_1",
+                    "x": 8.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Fs_1",
+                    "x": 10.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Gs_1",
+                    "x": 11.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_As_1",
+                    "x": 12.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Cs_2",
+                    "x": 14.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Ds_2",
+                    "x": 15.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Fs_2",
+                    "x": 17.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_Gs_2",
+                    "x": 18.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_As_2",
+                    "x": 19.5,
+                    "y": 0
+                },
+                {
+                    "label": "MI_C",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "label": "MI_D",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "label": "MI_E",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "label": "MI_F",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "label": "MI_G",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "label": "MI_A",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "label": "MI_B",
+                    "x": 6,
+                    "y": 1
+                },
+                {
+                    "label": "MI_C_1",
+                    "x": 7,
+                    "y": 1
+                },
+                {
+                    "label": "MI_D_1",
+                    "x": 8,
+                    "y": 1
+                },
+                {
+                    "label": "MI_E_1",
+                    "x": 9,
+                    "y": 1
+                },
+                {
+                    "label": "MI_F_1",
+                    "x": 10,
+                    "y": 1
+                },
+                {
+                    "label": "MI_G_1",
+                    "x": 11,
+                    "y": 1
+                },
+                {
+                    "label": "MI_A_1",
+                    "x": 12,
+                    "y": 1
+                },
+                {
+                    "label": "MI_B_1",
+                    "x": 13,
+                    "y": 1
+                },
+                {
+                    "label": "MI_C_2",
+                    "x": 14,
+                    "y": 1
+                },
+                {
+                    "label": "MI_D_2",
+                    "x": 15,
+                    "y": 1
+                },
+                {
+                    "label": "MI_E_2",
+                    "x": 16,
+                    "y": 1
+                },
+                {
+                    "label": "MI_F_2",
+                    "x": 17,
+                    "y": 1
+                },
+                {
+                    "label": "MI_G_2",
+                    "x": 18,
+                    "y": 1
+                },
+                {
+                    "label": "MI_A_2",
+                    "x": 19,
+                    "y": 1
+                },
+                {
+                    "label": "MI_B_2",
+                    "x": 20,
+                    "y": 1
+                }
+            ]
+        }
+    }
+}
